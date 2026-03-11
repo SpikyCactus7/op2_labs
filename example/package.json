@@ -1,7 +1,9 @@
 {
-  "name": "geniter",
-  "version": "1.0.0",
-  "description": "generator und iterator lab 1",
+  "name": "example",
+  "dependencies": {
+  "geniter": "file:../lib/index.js"
+  },
+  "description": "showin off da library",
   "homepage": "https://github.com/SpikyCactus7/op2_labs#readme",
   "bugs": {
     "url": "https://github.com/SpikyCactus7/op2_labs/issues"
@@ -12,8 +14,12 @@
   },
   "license": "MIT",
   "author": "mykyta dementiev",
-  "type": "commonjs",
-  "main": "1geniter.js",
+  "type": "module",
+  "main": "example.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }

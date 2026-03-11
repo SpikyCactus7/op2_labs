@@ -1,0 +1,20 @@
+{
+  "name": "geniter",
+  "version": "1.0.0",
+  "description": "generator und iterator lab 1",
+  "homepage": "https://github.com/SpikyCactus7/op2_labs#readme",
+  "bugs": {
+    "url": "https://github.com/SpikyCactus7/op2_labs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpikyCactus7/op2_labs.git"
+  },
+  "license": "MIT",
+  "author": "mykyta dementiev",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
