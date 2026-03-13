@@ -1,4 +1,4 @@
-import {fibgen, iter} from "../lib/index.js";
+import {fibgen, iter} from "geniter";
 const gen = fibgen();
 (async () => {
   const { value: result } = await iter(gen, 5000).next();
